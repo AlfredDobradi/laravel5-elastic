@@ -1,0 +1,24 @@
+{
+    "name": "adobradi/laravel5-elastic",
+    "description": "Simple Elastic wrapper for Laravel 5",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel 5", "elastic", "elasticsearch" ],
+    "homepage": "http://github.com/AlfredDobradi/laravel5-elastic",
+    "authors": [
+        {
+            "name": "Alfred Dobradi",
+            "email": "alfreddobradi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "elasticsearch/elasticsearch": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Adobradi\\Elastic": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
