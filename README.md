@@ -9,7 +9,7 @@ First you'll have to add the package to your dependencies in your composer.json 
 
 ``` json
 {
-    require: {
+    "require": {
         "adobradi/laravel5-elastic": "~1.0"
     }
 }
