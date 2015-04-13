@@ -1,6 +1,6 @@
 # laravel5-elastic
 
-[![Join the chat at https://gitter.im/AlfredDobradi/laravel5-elastic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AlfredDobradi/laravel5-elastic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/AlfredDobradi/laravel5-elastic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AlfredDobradi/laravel5-elastic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)<br /><br />
 Simple Elastic wrapper for Laravel 5
 
 This package was built on [Elasticsearch/Elasticsearch](https://packagist.org/packages/elasticsearch/elasticsearch). The only purpose of this package is to create a simpler way to use Elastic in Laravel 5.
