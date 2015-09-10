@@ -36,7 +36,7 @@ class ElasticServiceProvider extends ServiceProvider {
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../../../config/elastic.php' => config_path('elastic.php')
+            __DIR__ . '/../config/elastic.php' => config_path('elastic.php')
         ]);
 
         AliasLoader::getInstance()->alias('Elastic','Adobradi\Elastic\Facades\Elastic');
