@@ -16,9 +16,8 @@
         "elasticsearch/elasticsearch": "~2.0"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Adobradi\\Elastic\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
