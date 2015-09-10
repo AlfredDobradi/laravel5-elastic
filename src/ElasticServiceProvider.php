@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
-use Elasticsearch\Client;
+use Elasticsearch\ClientBuilder;
 
 class ElasticServiceProvider extends ServiceProvider {
 
@@ -23,7 +23,13 @@ class ElasticServiceProvider extends ServiceProvider {
 		$config = config('elastic');
 
         $this->app->bind('elastic',function() use ($config) {
-            return new Client($config);
+
+			$client = ClientBuilder::create()
+				->setHosts($config['hosts'])
+				->build();
+
+			return $client;
+			
         });
 	}
 
