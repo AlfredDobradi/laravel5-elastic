@@ -13,11 +13,11 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.0",
-        "elasticsearch/elasticsearch": "~1.0"
+        "elasticsearch/elasticsearch": "~2.0"
     },
     "autoload": {
         "psr-0": {
-            "Adobradi\\Elastic": "src/"
+            "Adobradi\\Elastic\\": "src/"
         }
     },
     "minimum-stability": "stable"
